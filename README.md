@@ -1,0 +1,3 @@
+# RecallBox
+
+I have done the mobile part of this project with kotlin. Its purpose is to ensure that people who consume daily drugs can consume drugs regularly at the right time. The authorized doctor can control the time and amount of the user's medication consumed as he wishes. If he wants, he can communicate by message. Additionally you can access current health news. He / she can learn the needs he / she should consume daily. The mobile application notifies the user when the time comes to drink the medicine. If the user confirms the notification, the smart medicine box drops the medication into the chamber.
