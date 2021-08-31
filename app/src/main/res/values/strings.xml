@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Recall Box</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="check_remember">Beni Hatırla</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_logout">Çıkış</string>
+
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_alarm">Alarm</string>
+    <string name="menu_health">Sağlık</string>
+    <string name="menu_calendar">Çizelge</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_exercise">Egzersiz</string>
+    <string name="try_again">Tekrar Deneyin!</string>
+    <string name="well_done">Tebrikler!</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="exercise_text_view_tools">10 kez</string>
+    <string name="exercise_text_view">%d kez</string>
+    <string name="next_button_string">İleri</string>
+    <string name="exit_button_string">Geri</string>
+    <string name="title_android_fitness_exercise">Egzersiz Sayısı: (%d/%d)</string>
+
+    <string name="bmi_button">Vücut Kitle İndeksi</string>
+    <string name="water_button">Günlük Su İhtiyacı Hesaplama</string>
+    <string name="calorie_button">Günlük Kalori Hesaplama</string>
+
+
+    <string name="congrats_image_view">Tebrikler</string>
+    <string name="go_button">Başla!</string>
+    <string name="try_again_string">Tekrar Deneyin!</string>
+    <string name="next_workout_string">Yeni Egzersiz</string>
+    <string name="try_again_description">Tekrar Deneyin!</string>
+
+    <string name="str_weight">Kilonuzu giriniz! (KG)</string>
+    <string name="str_height">Boyunuzu giriniz! (Nokta ile)</string>
+    <string name="str_height2">Boyunuzu giriniz! (Örn:179)</string>
+    <string name="str_age">Yaşınızı giriniz!</string>
+    <string name="str_gender">Cinsiyetinizi giriniz!(Kadin veya Erkek)</string>
+    <string name="str_button">Hesapla</string>
+    <string name="str_image_desc">Vücut kitle indeksinize göre uygun görüntü</string>
+    <string name="women_radioButton">Kadın</string>
+    <string name="man_radioButton">Erkek</string>
+    <string name="water_about1">NOT: Burada belirtilen günlük su ihtiyacınızın bir kısmını yemeklerden alıyorsunuz.</string>
+    <string name="water_about2">Bu nedenle burada belirtilenden daha az miktarda su içmeniz yeterli olacaktır.</string>
+    <string name="water_about3">Uyandıktan Sonra: 2 bardak su içmek iç organlarınızı aktifleştirerek güne hazırlar.</string>
+    <string name="water_about4">Yemekten 30 Dakika Önce: 1 bardak su içmek hem sindirim sisteminizi harekete geçirir hem de yemeklerde daha az kalori tüketerek kilo vermenizi sağlar.</string>
+    <string name="water_about5">Banyodan Önce: 1 bardak su içmek kan basıncınızı düşürmeye yardımcı olur. Uyumadan Önce: 1 bardak su içmek ise kalp krizi ve inme riskini azaltır.</string>
+    <string name="menu_chat">Mesajlaşma</string>
+    <string name="medicine_string">İlaç adını giriniz!</string>
+    <string name="string_medicine_day">Tüketim gününüzü giriniz!</string>
+    <string name="string_medicine_hour">Tüketim saati girin![Örn:18:00]</string>
+    <string name="string_update_button">Güncelle</string>
+    <string name="string_weight">Kilonuzu giriniz!</string>
+    <string name="string_lenght">Boyunuzu giriniz!</string>
+    <string name="string_gender">Cinsiyetinizi giriniz!</string>
+    <string name="string_surname">Soyadınızı giriniz!</string>
+    <string name="string_name">Adınızı giriniz!</string>
+    <string name="string_profil_picture">Profil fotoğrafı Seçiniz!</string>
+    <string name="string_medicine_save">Kaydet</string>
+    <string name="string_medicine_delete">Sil</string>
+
+
+</resources>

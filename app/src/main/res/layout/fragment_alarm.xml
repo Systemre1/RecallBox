@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".ui.home.AlarmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/medicine_gif"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/medicine_string"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/medicineName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_medicine"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/string_medicine_day"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/medicineDay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_calender_red"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_medicine_hour"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/medicineHour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_time"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="datetime"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/medicineSaveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/saddlebrown"
+            android:onClick="saveMedicine"
+            android:text="@string/string_medicine_save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

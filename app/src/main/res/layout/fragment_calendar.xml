@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".ui.home.CalendarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/medicine_info"
+                android:layout_alignParentLeft="true"
+                android:ems="15"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:padding="11dp"
+                android:textColor="@color/black"
+                android:background="@drawable/login_edit_background"
+                app:drawableStartCompat="@drawable/ic_action_medicine" />
+
+            <Button
+                android:id="@+id/medicine_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day"
+                android:backgroundTint="@color/chocolate"
+                android:textAllCaps="false"
+                android:text="@string/string_medicine_delete"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+            />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

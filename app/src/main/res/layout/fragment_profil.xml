@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.ProfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/selectphoto_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:onClick="selectPhoto"
+            android:text="@string/string_profil_picture"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_select_photo_picture"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/string_name"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_profil"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/string_surname"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userSurname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_surname"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/string_gender"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userGender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_gender"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/string_lenght"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userlength"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_length"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_weight"
+            app:hintTextAppearance="@color/gray"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userWeight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_weight"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/profileSaveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/saddlebrown"
+            android:onClick="saveUser"
+            android:text="@string/string_update_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" />
+
+    </LinearLayout>
+</RelativeLayout>

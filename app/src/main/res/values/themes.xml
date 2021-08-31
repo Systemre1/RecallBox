@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RecallBox" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/olive</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <item name="colorOnPrimary">@color/chocolate</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/olive</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/chocolate</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="errorToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stTextSize">16sp</item>
+        <item name="stColorBackground">#F42B2B</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#FF5722</item>
+        <item name="stIconStart">@drawable/ic_action_error</item>
+        <item name="stLength">LONG</item>
+        LONG or SHORT
+    </style>
+
+    <style name="successToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stTextSize">16sp</item>
+        <item name="stColorBackground">#008000</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#006400</item>
+        <item name="stIconStart">@drawable/ic_action_success</item>
+        <item name="stGravity">top</item>
+        <item name="stLength">LONG</item>
+        LONG or SHORT
+    </style>
+
+    <style name="warningToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stTextSize">16sp</item>
+        <item name="stColorBackground">#D16F05</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#EF7E33</item>
+        <item name="stIconStart">@drawable/ic_action_warning</item>
+        <item name="stLength">LONG</item>
+        LONG or SHORT
+    </style>
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">12%</item>
+    </style>
+
+    <style name="Theme.RecallBox.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RecallBox.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RecallBox.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

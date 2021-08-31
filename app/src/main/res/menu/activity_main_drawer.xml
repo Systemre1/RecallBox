@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_action_whiteprofil"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_action_health"
+            android:title="@string/menu_health" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_action_alarm"
+            android:title="@string/menu_alarm" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_action_calendar"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/ic_action_exercise"
+            android:title="@string/menu_exercise" />
+
+    </group>
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_exercise"
+        android:name="com.emrekoyuncu.recallbox.exercise.StartFragment"
+        android:label="@string/menu_exercise"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tryAgainFragment"
+        android:name="com.emrekoyuncu.recallbox.exercise.TryAgainFragment"
+        android:label="@string/try_again"
+        tools:layout="@layout/fragment_try_again">
+        <action
+            android:id="@+id/action_tryAgainFragment_to_exerciseFragment"
+            app:destination="@id/exerciseFragment"
+            app:popUpTo="@+id/exerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wellDoneFragment"
+        android:name="com.emrekoyuncu.recallbox.exercise.WellDoneFragment"
+        android:label="@string/well_done"
+        tools:layout="@layout/fragment_well_done">
+        <action
+            android:id="@+id/action_wellDoneFragment_to_exerciseFragment"
+            app:destination="@id/exerciseFragment"
+            app:popUpTo="@+id/exerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.emrekoyuncu.recallbox.exercise.ExerciseFragment"
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercise">
+        <action
+            android:id="@+id/action_exerciseFragment_to_wellDoneFragment"
+            app:destination="@id/wellDoneFragment"
+            app:popUpTo="@+id/exerciseFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_exerciseFragment_to_tryAgainFragment"
+            app:destination="@id/tryAgainFragment"
+            app:popUpTo="@+id/exerciseFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.emrekoyuncu.recallbox.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.emrekoyuncu.recallbox.ui.home.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/bmiFragment"
+        android:name="com.emrekoyuncu.recallbox.health.BmiFragment"
+        android:label="@string/bmi_button"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_alarm"
+        android:name="com.emrekoyuncu.recallbox.ui.home.AlarmFragment"
+        android:label="@string/menu_alarm"
+        tools:layout="@layout/fragment_alarm" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.emrekoyuncu.recallbox.ui.home.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/nav_health"
+        android:name="com.emrekoyuncu.recallbox.health.HealthMenuFragment"
+        android:label="@string/menu_health"
+        tools:layout="@layout/fragment_health_menu" >
+        <action
+            android:id="@+id/action_nav_health_to_bmiFragment"
+            app:destination="@id/bmiFragment" />
+        <action
+            android:id="@+id/action_nav_health_to_waterFragment"
+            app:destination="@id/waterFragment" />
+        <action
+            android:id="@+id/action_nav_health_to_calorieFragment"
+            app:destination="@id/calorieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/waterFragment"
+        android:name="com.emrekoyuncu.recallbox.health.WaterFragment"
+        android:label="@string/water_button"
+        tools:layout="@layout/fragment_water" />
+    <fragment
+        android:id="@+id/calorieFragment"
+        android:name="com.emrekoyuncu.recallbox.health.CalorieFragment"
+        android:label="@string/calorie_button"
+        tools:layout="@layout/fragment_calorie" />
+
+</navigation>

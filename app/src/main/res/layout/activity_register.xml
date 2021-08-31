@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/login_ui" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="E-Posta Adresi"
+            app:hintTextAppearance="@color/gray"
+            app:passwordToggleTint="@color/brown"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerMail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_mail"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Şifre"
+            app:hintTextAppearance="@color/gray"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/brown"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_password"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Şifrenizi tekrar giriniz!"
+            app:hintTextAppearance="@color/gray"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/brown"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerControlPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ic_action_password"
+                android:ems="15"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="21sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:onClick="saveRegisterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/saddlebrown"
+            android:text="Onayla"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
