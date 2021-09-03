@@ -44,9 +44,9 @@ Keywords: Intelligent medicine box, health check, application interface
 
 ![image](https://user-images.githubusercontent.com/80685689/131991829-20c7958f-00fe-4eb8-8b8b-c2880ea6694c.png)
 > When we enter the "Health" section in the menu, the screen above appears. On this screen, the user can make the necessary calculations for a healthy daily life. These,
-- Body mass index calculation
-- Water amount calculation
-- Calculation of daily calorie need
+> - Body mass index calculation
+> - Water amount calculation
+> - Calculation of daily calorie need
 ----
 
 ![image](https://user-images.githubusercontent.com/80685689/131991858-c08bed0f-8aec-4b73-a19b-25f50227fc96.png)
@@ -56,8 +56,8 @@ Keywords: Intelligent medicine box, health check, application interface
 ![image](https://user-images.githubusercontent.com/80685689/131991863-04d0b69f-c5f8-46a9-91df-04334a883b32.png)
 
 > - When we select the Body mass index in the health menu, it asks us for our weight and height. After entering the necessary information, it calculates our body mass index.
-- If we choose to calculate the amount of water, it will ask us for our weight and gender. After entering the necessary information, it calculates our daily water need.
-- If we choose to calculate the daily calorie need, it asks us our weight, height, age and gender After entering the necessary information, it calculates our daily calorie need.
+> - If we choose to calculate the amount of water, it will ask us for our weight and gender. After entering the necessary information, it calculates our daily water need.
+> - If we choose to calculate the daily calorie need, it asks us our weight, height, age and gender After entering the necessary information, it calculates our daily calorie need.
 ----
 
 ## Exercise Screen
