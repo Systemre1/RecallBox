@@ -4,6 +4,7 @@ The smart box project reminding medicine is intended for people who are sick but
 Keywords: Intelligent medicine box, health check, application interface
 
 Login Screen
+
 ![image](https://user-images.githubusercontent.com/80685689/131991295-61f43c13-e658-402c-9054-8e7be8104b98.png)
 We created the login screen of the application that should be used for the Recall Box. On this screen, if you are registered before, you will be transferred to the main menu after directly entering your information and clicking the "Sign In" button. If your information is incorrect or incomplete, you will receive an error message. If you have forgotten your password, "Forgot your password?" After clicking the section, you can create a new password. If you are a new user, after clicking the "Register" button, you will be transferred to the registration menu.
 
