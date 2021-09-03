@@ -1,6 +1,7 @@
 # RecallBox
 
 The smart box project reminding medicine is intended for people who are sick but cannot follow their medicines continuously, have to use medicines for life, and have chronic diseases. In this project work, it was aimed to prevent patients from forgetting their medicines, to lead a better quality of life and to prevent their illnesses from progressing further. In line with this purpose, various projects were examined and a telephone application was considered as an interface for patients to connect with the device. The drug usage pattern of the patient is controlled by this application installed on his phone. Thanks to this application, our phones, which we have never dropped from our hands, will provide us with the opportunity to monitor our health and bring along the follow-up of our medicine purchases. Family members will also be able to access the application and regularly monitor the patient's medication use. This application will not only have the feature of tracking medication, but also will contribute to a healthier life with features such as the person's body mass index and daily water amount. Thanks to the sensors used in the device hardware, the application on the phone will detect the movement of the patient and a definite notification will be sent when the drug is used or not. Thus, users will have a more comfortable life and it will be easier for them to follow their medications and health conditions.
+
 Keywords: Intelligent medicine box, health check, application interface
 
 
